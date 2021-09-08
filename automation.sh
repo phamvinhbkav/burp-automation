@@ -79,6 +79,7 @@ else
     echo -ne '\n' |update-alternatives --config java
     java -version
     echo -e "Java 14.0.1 has been installed"
+    expect activate
 fi
 
 if [[ "$_java" ]]; then
