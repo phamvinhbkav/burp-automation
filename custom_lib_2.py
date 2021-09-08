@@ -10,9 +10,9 @@ import json
 import pandas as pd
 
 #update variable accordingly
-URL="127.0.0.1:8081"
+#URL="127.0.0.1:8081"
 
-scope_url="https://demo.testfire.net/"
+scope_url="https://virtuestech.com/"
 
 headers = { "accept": "*/*", "Content-Type": "application/json","Connection": "close"}
 
