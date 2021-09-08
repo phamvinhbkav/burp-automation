@@ -10,7 +10,7 @@ import json
 import pandas as pd
 
 #update variable accordingly
-#URL="127.0.0.1:8081"
+URL="127.0.0.1:8080"
 
 scope_url="https://virtuestech.com/"
 
