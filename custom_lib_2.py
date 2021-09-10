@@ -8,11 +8,11 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import json
 import pandas as pd
-
+import os
 #update variable accordingly
 URL="127.0.0.1:8081"
 
-scope_url="https://virtuestech.com/"
+scope_url = os.environ.get('SCAN_URL')
 
 headers = { "accept": "*/*", "Content-Type": "application/json","Connection": "close"}
 
